@@ -1,0 +1,47 @@
+$pc: 960px; // PC
+$tab: 599px; // タブレット
+$sp: 480px;  // スマホ
+
+// PC-FIRST
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+// // SP-FIRST
+// @mixin pc {
+//   @media (min-width: ($pc)) {
+//     @content;
+//   }
+// }
+// @mixin tab {
+//   @media (min-width: ($tab)) {
+//     @content;
+//   }
+// }
+// @mixin sp {
+//   @media (min-width: ($sp)) {
+//     @content;
+//   }
+// }
+
+html {
+  font-size: 62.5%;
+}
+
+$base-color:#fff;
+$main-color:#fff;
+$sub-color: #fff;
+$accent-color:#fff;
+$txt-color:#fff;
