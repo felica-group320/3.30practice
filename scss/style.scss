@@ -1,6 +1,6 @@
 @import "reset";
 @import "mixin";
-@import "script";
+// @import "script";
 @import "1.header";
 // @import "2.nav";
 // @import "3.main";
@@ -10,7 +10,7 @@
 // @import "_7..scss";
 // @import "_8..scss";
 // @import "_9..scss";
-// @import "_10.footer.scss";
+@import "10.footer";
 // @import "_js..scss";
 // @import "_js..scss";
 // @import "_js..scss";
